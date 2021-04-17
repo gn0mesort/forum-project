@@ -32,8 +32,37 @@
   background-color: var(--bg);
 }
 
+#reply button {
+  background-color: var(--bg);
+  color: var(--red);
+  border: double;
+  width: 3rem;
+  height: 1.5rem;
+}
+
+form {
+  text-align: center;
+}
+
 textarea {
+  width: auto;
+  background-color: var(--bg);
+  color: var(--fg);
   resize: none;
+  border: double;
+}
+
+input[type='submit'], input[type='text'], input[type='password'] {
+  background-color: var(--bg);
+  color: var(--fg);
+  border: double;
+}
+
+input[type='submit'] {
+}
+
+input {
+  margin-bottom: 0.75rem;
 }
 
 body {

@@ -31,9 +31,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/data/css/main.css" />
+    <link rel="stylesheet" href="/data/css/gruvbox-dark.css" />
     <title><?= $topic_title ?> - megate.ch</title>
   </head>
-  <body>
+  <body onload="hljs.highlightAll();">
     <?php include("php/navbar.php"); ?>
     <header>
       <h1><?= $topic_title ?></h1>
@@ -44,6 +45,7 @@
       <?php include("php/replybox.php"); ?>
     </main>
     <?php include("php/footer.php"); ?>
+    <script src="/data/js/highlight.pack.js"></script>
     <script src="/data/js/replybox.js"></script>
   </body>
 </html>

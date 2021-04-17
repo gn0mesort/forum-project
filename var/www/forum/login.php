@@ -40,7 +40,7 @@
         }
       ?>
       <form class="framed" action="/php/login.php" method="post" enctype="multipart/form-data">
-        <label for="name">Name:</label>
+        <label for="name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name:</label>
         <input type="text" name="name" required="true" pattern=".{1,64}" /><br />
         <label for="password">Password:</label>
         <input type="password" name="password" required="true" pattern=".{8,64}" title="Must be between 8 and 64 characters." /><br />
